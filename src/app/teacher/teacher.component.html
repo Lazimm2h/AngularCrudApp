@@ -1,0 +1,18 @@
+<table>
+    <tr style="display: flex; gap: 30px; justify-content: center;">
+      <th style="width: 300px;">Teacher Name</th>
+      <th style="width: 300px;">Students</th>
+    </tr>
+    <tr *ngFor="let teacher of TeacherArray" style="display: flex; gap: 30px; justify-content: center;">
+      <td style="width: 300px; text-align: center;"><button (click)="students(teacher[0])">{{ teacher[0] }}</button></td>
+      <td style="width: 300px; text-align: center;">{{ teacher[1] }}</td>
+    </tr>
+  </table>
+  
+  <div *ngIf="show">
+    <h3>Students:</h3>
+    <ul>
+      <li *ngFor="let student of stdList">{{ student }}</li>
+    </ul>
+  </div>
+  

@@ -1,0 +1,69 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employee": [
+    {
+      "firstName": "Jhon",
+      "lastName": "Doe",
+      "email": "j@mail.com",
+      "dob": "2011-06-03T18:30:00.000Z",
+      "gender": "male",
+      "education": "Post Graduate",
+      "expirience": 12,
+      "company": "Google",
+      "package": 13,
+      "id": 1
+    },
+    {
+      "firstName": "lazimm",
+      "lastName": "lattheef",
+      "email": "la@mail.com",
+      "dob": "2023-06-25T18:30:00.000Z",
+      "gender": "male",
+      "education": "Intermediate",
+      "expirience": 10,
+      "company": "M2H",
+      "package": 800000,
+      "id": 4
+    },
+    {
+      "firstName": "Final",
+      "lastName": "User",
+      "email": "user@mail.com",
+      "dob": "2023-06-19T18:30:00.000Z",
+      "gender": "male",
+      "education": "Intermediate",
+      "expirience": 7,
+      "company": "M2H",
+      "package": 52222,
+      "id": 5
+    },
+    {
+      "firstName": "new",
+      "lastName": "User",
+      "email": "new@mail.com",
+      "dob": "2023-06-11T18:30:00.000Z",
+      "gender": "male",
+      "education": "Matric",
+      "expirience": 3,
+      "company": "Fff",
+      "package": 65,
+      "id": 6
+    }
+  ]
+}
